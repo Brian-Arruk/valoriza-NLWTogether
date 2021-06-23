@@ -1,25 +1,8 @@
-import express from "express"
+import "reflect-metadata";
+import express from "express";
 
-// @types/express
-const app = express()
+import "./database";
 
-/**
- * GET => BUSCAR UMA INFORMAÇÃO
- * POST => INSERIR (CRIAR) UMA INFORMAÇÃO
- * PUT => ALTERAR UMA INFORMAÇÃO
- * DELETE => REMOVER UM DADO
- * PATCH => ALTERAR UMA INFORMAÇÃO ESPECIFICA
- */
+const app = express();
 
-app.get("/test", (request, response) => {
-    // Request => Entrando
-    // Response => Saindo
-    return response.send("Oláa")
-})
-
-app.post("/test-post", (request, response) => {
-    return response.send("Olá POST")
-})
-
-//http://localhost:3000
-app.listen(3000, () => console.log("Server is running"))
+app.listen(3000, () => console.log("Server is running"));
