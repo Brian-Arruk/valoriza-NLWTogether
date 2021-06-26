@@ -1,17 +1,19 @@
-# NLW Valoriza
+# NLW VALORIZA
 
-## Regras
+## Consiste em classificar usuários cadastrados com TAGS que também podem ser cadastradas
 
- - Cadastro de usuário
-    - Não é permitido cadastrar mais de um usuário com o mesmo e-mail
-    - Não é permitido cadastrar usuário sem e-mail
+## O projeto foi desenvolvido durante a Next Level Weekend Together. Contudo, foram realizadas algumas melhorias.
 
- - Cadastro de TAG
-    - Não é permitido cadastrar mais de uma tag com o mesmo nome
-    - Não é permitido cadastrar tag sem nome
-    - Não é permitido o cadastro por usuários que não sejam administradores
+# Tecnologias Utilizadas
+ - [TypeScript](https://www.typescriptlang.org/)
+ - [TypeORM](https://typeorm.io/#/)
+ - [Express](https://expressjs.com/pt-br/)
+ - [Beekeeper Studio](https://www.beekeeperstudio.io/)
+ - [PostMan](https://www.postman.com/)
+ - [SQLite](https://www.sqlite.org/index.html)
 
- - Cadastro de elogios
-    - Não é permitido um usuário cadastrar elogios para si
-    - Não é permitido cadastrar elogios para usuários inválidos
-    - O usuário precisa estar autenticado na aplicação
+# Como Rodar o Projetto 
+
+- Instale as dependências com ```yarn```
+- Para Rodar o projeto use ``` yarn dev```
+- Para realizar cadastros, basta importar as collections do PostMan
